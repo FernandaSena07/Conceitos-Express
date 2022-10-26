@@ -1,6 +1,6 @@
 const Sequelize = require('sequelize');
 const { sequelize } = require('../services/dborm');
-const database = require('./dborm');
+const database = require('../services/dborm');
 
 const Cliente = database.Sequelize.define('cliente',{
     id: {
